@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WebSpeakerActivity!</string>
+    <string name="app_name">Web Page Reader</string>
+
+    <!-- License checking status messages -->
+    <string name="check_license">Check license</string>
+    <string name="checking_license">Checking license...</string>
+    <string name="dont_allow">Don\'t allow the user access</string>
+    <string name="allow">Allow the user access</string>
+    <string name="application_error">Application error: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Application not licensed</string>
+    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+    <string name="buy_button">Buy app</string>
+    <string name="quit_button">Exit</string>
+
+    <string name="select_language">Select the voice language</string>
+    <string name="language">Language</string>
+	<string name="bookmarks">Bookmarks</string>
+	<string name="history">History</string>
+	<string name="reload">Reload</string>
+    <string name="speed">Speed</string>
+    <string name="add_bookmark">Add Bookmark</string>
+    <string name="del_bookmark">Delete Bookmark</string>
+    <string name="help">Help</string>
+    <string name="set_homepage_title">Set Home Page</string>
+    <string name="set_homepage_que">Set the current page as the home page?</string>
+    <string name="set_homepage_msg">Set the current page as the home page.</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+
+    <string name="bookmark1">Browser bookmarks</string>
+    <string name="bookmark2">Added bookmarks</string>
+    <string name="del_msg">Delete %s ?</string>
+    <string name="no_bookmark">No added bookmarks</string>
+
+    <string name="clear_history">Clear history</string>
+    <string name="clear_history_msg">Clear history ?</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

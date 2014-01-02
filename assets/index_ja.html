@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>ウェブ 読み上げ</title>
+	<style type="text/css">
+.mid1
+{
+	vertical-align:middle;
+}
+.s1
+{
+}
+	</style>
+</head>
+<body>
+<table>
+	<tr>
+		<td><img src="img/logo.png" alt="Web Page Reader" /></td><td class="s1"><b style="font-size:large;">ウェブ 読み上げ</b></td>
+	</tr>
+</table>
+
+<h3>音声合成エンジンのインストール</h3>
+
+<p>Androidの端末には標準で英語、フランス語、ドイツ語、イタリア語、スペイン語の音声合成エンジンが入っています。</p>
+<p>これらの言語で読み上げさせる場合は音声合成エンジンのインストールは必要ありません。</p>
+
+<p>
+日本語で読み上げさせるには、KDDI研究所の音声合成エンジン(無料)をインストールします。<br />
+<button onclick="bell_pepper_info.OpenMarket('jp.kddilabs.n2tts')">KDDI研究所の音声合成エンジンを <br /> インストール</button>
+</p>
+
+<p>
+中国語や韓国語で読み上げさせるには、SVOX社の音声合成エンジン(有料)をインストールします。<br />
+<button onclick="bell_pepper_info.OpenMarket('com.svox.classic')">SVOX社の音声合成エンジンを<br />インストール</button>
+</p>
+<br />
+
+<h3>音声合成エンジンの選択</h3>
+<p>
+音声合成エンジンが２つ以上ある場合、使用するエンジンを選択します。
+</p>
+<ol>
+<li>Androidの端末の ［<b>設定</b>］－［<b>音声入出力</b>］－［<b>テキスト読み上げの設定</b>］の画面を開きます。</li>
+<li>エンジンをインストールした場合は、画面下部の「<b>エンジン</b>」でエンジンの名前の右のチェックボックスをオンにします。</li>
+<li>同じ画面の「<b>既定のエンジン</b>」でエンジンを選択します。</li>
+</ol>
+
+
+
+
+<h3>使い方</h3>
+
+<table>
+	<tr>
+		<td><img class="mid1" src="img/play.png" alt="再生" /></td><td class="s1">読み上げを開始します。</td>
+	</tr>
+	<tr>
+		<td><img class="mid1" src="img/pause.png" alt="休止" /></td><td class="s1">読み上げを停止します。</td>
+	</tr>
+	<tr>
+		<td><img class="mid1" src="img/next.png" alt="早送り" /></td><td class="s1">ボタンを押し続けて、読み上げ位置を前に進めます。</td>
+	</tr>
+	<tr>
+		<td><img class="mid1" src="img/prev.png" alt="巻き戻し" /></td><td class="s1">ボタンを押し続けて、読み上げ位置を後ろに戻します。</td>
+	</tr>
+</table>
+<br />
+<p>
+ウェブページをタッチして読み上げ位置を指定できます。<br />
+タッチを長くすると（長押し）、リンクでページ移動するのを防げます。<br />
+</p>
+<br />
+</body>
+</html>

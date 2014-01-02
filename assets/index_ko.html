@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>웹 페이지 리더</title>
+	<style type="text/css">
+.mid1
+{
+	vertical-align:middle;
+}
+.s1
+{
+}
+	</style>
+</head>
+<body>
+<table>
+	<tr>
+		<td><img src="img/logo.png" alt="Web Page Reader" /></td><td class="s1"><b style="font-size:large;">웹 페이지 리더</b></td>
+	</tr>
+</table>
+
+<h3>TTS(text-to-speech) 엔진 설치</h3>
+
+<p>Android 단말기에는 표준으로 영어, 프랑스어, 독일어, 이탈리아어, 스페인어의 TTS(text-to-speech) 엔진이 들어 있습니다.</p>
+<p>이러한 언어로 음성시키는 경우 TTS 엔진 설치가 필요하지 않습니다.</p>
+
+<p>
+일본어로 읽기시키려면, KDDI 연구소의 TTS 엔진 (무료)을 설치합니다.<br />
+<button onclick="bell_pepper_info.OpenMarket('jp.kddilabs.n2tts')">KDDILABS N2 TTS 을 설치</button>
+</p>
+
+<p>
+중국어와 한국어로 읽기시키려면, SVOX 사의 TTS 엔진 (유료)을 설치합니다.<br />
+<button onclick="bell_pepper_info.OpenMarket('com.svox.classic')">SVOX Classic TTS 을 설치</button><br /><br />
+휴대폰 기능 안에 한국어 TTS 엔진이 있을경우에는 설치가 필요하지 않습니다.
+</p>
+<br />
+
+<h3>TTS 엔진 선택</h3>
+<p>
+TTS 엔진이 2 개 이상있는 경우 사용할 엔진을 선택합니다.
+</p>
+<ol>
+<li>Android 단말의 "<b>설정</b>" -> "<b>음성 입력 & 출력</b>" -> "<b>TTS(text-to-speech) 설정</b>" 화면을 엽니다.</li>
+<li>엔진을 설치하면 화면 하단의 엔진의 이름 오른쪽의 확인란을 선택합니다.</li>
+<li>같은 화면에서 "<b>기본 엔진</b>" 을 선택합니다.</li>
+</ol>
+
+<h3>사용법</h3>
+
+<table>
+	<tr>
+		<td><img class="mid1" src="img/play.png" alt="시작" /></td><td class="s1">읽기를 시작합니다.</td>
+	</tr>
+	<tr>
+		<td><img class="mid1" src="img/pause.png" alt="중지" /></td><td class="s1">읽기를 중지합니다.</td>
+	</tr>
+	<tr>
+		<td><img class="mid1" src="img/next.png" alt="앞으로" /></td><td class="s1">버튼을 길게 눌러 읽기 위치를 앞으로 이동합니다.</td>
+	</tr>
+	<tr>
+		<td><img class="mid1" src="img/prev.png" alt="뒤로" /></td><td class="s1">버튼을 길게 눌러 읽기 위치를 뒤로 이동합니다.</td>
+	</tr>
+</table>
+<br />
+<p>
+웹페이지를 터치해 낭독 위치를 지정할 수 있습니다.<br />
+터치를 길게 하면 링크로 페이지 이동하는 것을 막을 수 있습니다.
+</p>
+
+<p>
+<a name="paid_ver"><strong>유료 버전도 있습니다.</strong></a><br />
+<a href="javascript:bell_pepper_info.OpenMarket('info.bell_pepper.WebSpeakerPro')" ><strong>유료 버전 웹 페이지 리더</strong></a><br/>
+<br/>
+무료 버전과 비교하여 유료 버전은 다음과 같은 기능이 있습니다.
+<ul>
+<li>광고가 게재되지 않습니다.</li>
+<li>다른 응용 프로그램이 활성화되거나 모니터가 꺼진 후에도 계속 읽습니다.</li>
+<li>웹 페이지는 텍스트 파일로 저장할 수 있으므로 오프라인으로 읽을 수 있습니다.</li>
+<li>이미지 로드를 비활성화할 수 있기 때문에 페이지 로딩을 고속화하며 네트워크 비용을 줄일 수 있습니다.</li>
+</ul>
+</p>
+<br />
+<br />
+</body>
+</html>
